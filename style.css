@@ -1,7 +1,10 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Times New Roman;
     background: linear-gradient(to bottom right, ##79522B, #dbe9f4);
+  h1, h2,h3,h4 {color: #8B0000;}
+  p {color:#8B0000;}
+ 
 }
 
 /* Cabeçalho fixo */
