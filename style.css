@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: #FFFF00;
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 5px;
@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    background: white;
+    background: #FFFF00;
     color: #007bff;
 }
 
@@ -48,7 +48,7 @@ main {
 
 /* Seções */
 section {
-    background-color: white;
+    background-color: #FFFF00;
     margin: 30px auto;
     padding: 20px;
     max-width: 800px;
