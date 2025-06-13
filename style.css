@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial Black Italic, Times New Roman;
+    font-family: Arial Black, Times New Roman;
     background: linear-gradientto bottom right, #000000, #dbe9f4);
   h1, h2,h3 {color: #8B0000;}
   p {color:#8B0000;}
@@ -13,7 +13,7 @@ header {
     top: 0;
     width: 100%;
     background: rgba(0, 123, 255, 0.9);
-    color: Khaki;
+    color: white;
     padding: 20px;
     text-align: center;
     z-index: 1000;
@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav a {
-    color: Khaki;
+    color: white;
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 5px;
@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    background: Khaki;
+    background: white;
     color: #007bff;
 }
 
@@ -48,7 +48,7 @@ main {
 
 /* Seções */
 section {
-    background-color: Khaki;
+    background-color: white;
     margin: 30px auto;
     padding: 20px;
     max-width: 800px;
