@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    font-family: Arial, Times New Roman;
+    font-family: Times New Roman;
     background: linear-gradient(to bottom right, ##79522B, #dbe9f4);
-  h1, h2,h3,h4 {color: #8B0000;}
+  h1, h2,h3 {color: #8B0000;}
   p {color:#8B0000;}
  
 }
