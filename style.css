@@ -13,7 +13,7 @@ header {
     top: 0;
     width: 100%;
     background: rgba(0, 123, 255, 0.9);
-    color:LightSteelBlue;
+    color:Khaki;
     padding: 20px;
     text-align: center;
     z-index: 1000;
@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav a {
-    color: LightSteelBlue;
+    color: Khaki;
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 5px;
@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    background:LightSteelBlue;
+    background:Khaki;
     color: #007bff;
 }
 
@@ -48,7 +48,7 @@ main {
 
 /* Seções */
 section {
-    background-color: LightSteelBlue;
+    background-color: Khaki;
     margin: 30px auto;
     padding: 20px;
     max-width: 800px;
@@ -76,7 +76,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #007bff;
-    color: LightSteelBlue;
+    color: Khaki;
 }
 
 /* Responsivo */
