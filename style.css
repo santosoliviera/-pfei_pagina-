@@ -1,10 +1,18 @@
 body {
     margin: 0;
-    font-family: Arial Black, Times New Roman;
-    background: linear-gradientto bottom right, #000000, #dbe9f4);
-  h1, h2,h3 {color: #8B0000;}
-  p {color:#8B0000;}
- 
+    padding: 0;
+    font-family: "Arial Black", "Times New Roman", sans-serif;
+    background: linear-gradient(to bottom right, #000000, #dbe9f4);
+}
+
+h1, h2, h3 {
+    color: #8B0000;
+    margin: 0.5em 0;
+}
+
+p {
+    color: #8B0000;
+    margin: 0.5em 0;
 }
 
 /* Cabeçalho fixo */
@@ -13,52 +21,53 @@ header {
     top: 0;
     width: 100%;
     background: rgba(0, 123, 255, 0.9);
-    color:Khaki;
-    padding: 20px;
+    color: khaki;
+    padding: 16px 10px;
     text-align: center;
     z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin-top: 10px;
+    margin: 10px 0 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 16px;
 }
 
 nav a {
-    color: Khaki;
+    color: khaki;
     text-decoration: none;
-    padding: 8px 16px;
+    padding: 6px 12px;
     border-radius: 5px;
     transition: background 0.3s, color 0.3s;
 }
 
 nav a:hover {
-    background:Khaki;
+    background: khaki;
     color: #007bff;
 }
 
 /* Espaço para o conteúdo por causa do cabeçalho fixo */
 main {
-    padding-top: 160px;
+    padding-top: 140px;
 }
 
 /* Seções */
 section {
-    background-color: Khaki;
-    margin: 30px auto;
-    padding: 20px;
-    max-width: 800px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: khaki;
+    margin: 20px auto;
+    padding: 16px;
+    max-width: 760px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
     transition: transform 0.3s ease;
 }
 
 section:hover {
-    transform: translateY(-5px);
+    transform: translateY(-4px);
 }
 
 section img {
@@ -68,20 +77,27 @@ section img {
 }
 
 section img:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 /* Rodapé */
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 16px;
     background-color: #007bff;
-    color: Khaki;
+    color: khaki;
+    font-size: 0.9rem;
 }
 
 /* Responsivo */
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
+        gap: 10px;
+    }
+
+    section {
+        margin: 16px;
+        padding: 14px;
     }
 }
